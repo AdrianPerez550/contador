@@ -9,8 +9,6 @@ export class AppComponent  {
   name = 'Angular ' + VERSION.major;
 
   title:String ="Contador";
-  numero: number= 10;
-  base: number =5;
 
 
 
