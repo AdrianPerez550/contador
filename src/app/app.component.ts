@@ -7,4 +7,14 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+
+  title:String ="Contador Basico Evaluacion";
+  numero: number= 10;
+  base: number =5;
+
+acumular(valor: number){
+this.numero +=  valor;
+}
+
+
 }
